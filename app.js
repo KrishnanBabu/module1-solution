@@ -1,4 +1,4 @@
-(var app=angular.module('lunchCheck',[]);
+var app=angular.module('lunchCheck',[]);
 app.filter('split',function(){
 return function(input,delimiter)
 {
@@ -34,4 +34,3 @@ $scope.msg = msg;
 };
 
 });
-)();
